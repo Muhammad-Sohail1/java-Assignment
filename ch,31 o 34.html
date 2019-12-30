@@ -1,0 +1,43 @@
+
+<html><head>
+<script>
+
+var name = prompt("enter your name")
+console.log("Hello " +name  + " Good Morning") 
+
+var age = new Date("april 24, 1995") 
+console.log("Your DOB Is " +age)
+
+ var today = new Date().getFullYear() - 1995
+ console.log("You are " +today +" Years Old")
+
+ var date = new Date().getTime() - new Date("april 24, 1995").getTime()
+// //console.log(date)
+ var now = date /(1000 * 60 * 60 * 24)
+// //console.log(now)    
+                          z = Math.ceil(now)
+                          console.log("Your Age in Days = " +z)
+
+ var date = new Date().getTime() - new Date("april 24, 1995").getTime()
+// //console.log(date)
+ var now = date /(1000 * 60 * 60 )
+// //console.log(now)
+                         r = Math.ceil(now)
+                         console.log("Your Age in Hourse = " +r)
+
+var next = new Date("april 24, 2020").getTime() - new Date().getTime()
+//console.log(next)
+
+var counted = next / (1000 * 60 * 60 * 24)
+//console.log(counted)
+                            s = Math.ceil(counted)
+                            console.log("Your Birthday Duration Days = " +s)
+
+
+
+
+
+
+</script>
+</head>
+</html>
