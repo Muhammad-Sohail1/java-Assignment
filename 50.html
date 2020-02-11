@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html><head>
+    <style>
+
+    </style>
+    <script>
+             function code(){
+                 var zipenter = document.getElementById("zip").value;
+                 switch(zipenter){
+                     case "88" : 
+                     var cntry = "SAUDIA ARABIA";
+                     break;
+
+                     case "99" : 
+                     var cntry = "TURKEY";
+                     break;
+                 }
+                    document.getElementById("con").value = cntry;
+             }
+                       
+    </script>
+</head>
+
+
+    <body>
+          ZIP:<br />
+          <input type="text" id="zip" onblur="code()"><br />
+          CONTRYS:<br />
+          <input type="text" id="con">
+           
+    </body>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </html>
